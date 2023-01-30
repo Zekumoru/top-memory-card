@@ -4,10 +4,11 @@ import Header from './components/Header';
 import usePokemon from './hooks/usePokemon';
 import { useEffect, useState } from 'react';
 import useArrayShuffler from './hooks/useArrayShuffler';
+import useLocalStorage from './hooks/useLocalStorage';
 
 function App() {
   const [score, setScore] = useState(0);
-  const [bestScore, setBestScore] = useState(0);
+  const [bestScore, setBestScore] = useLocalStorage('best-score', 0);
   const [pokemons, shufflePokemons] = useArrayShuffler(usePokemon().pokemons);
   const [picked, setPicked] = useState([]);
 
@@ -22,9 +23,11 @@ function App() {
   const handleCardClick = (name) => {
     if (checkIfPickedTwice(name)) {
       setScore(0);
-      setBestScore(score);
+      if (score > bestScore) setBestScore(score);
+
       setPicked([]);
       shufflePokemons();
+
       return;
     }
 
