@@ -5,6 +5,8 @@ import usePokemon from './hooks/usePokemon';
 import { useEffect, useState } from 'react';
 import useArrayShuffler from './hooks/useArrayShuffler';
 import useLocalStorage from './hooks/useLocalStorage';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 
 function App() {
   const [score, setScore] = useState(0);
@@ -44,6 +46,16 @@ function App() {
         <p>Best score: {bestScore}</p>
       </div>
       <Cards items={pokemons} onClick={handleCardClick} />
+      <p className="credits">
+        Made by Zekumoru{' '}
+        <a
+          href="https://github.com/Zekumoru/top-memory-card"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <FontAwesomeIcon className="icon" icon={faGithub} />
+        </a>
+      </p>
     </div>
   );
 }

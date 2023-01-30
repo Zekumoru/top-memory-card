@@ -10,3 +10,14 @@ $padding: 20px;
     padding: 0 $padding;
   }
 }
+
+.credits {
+  display: flex;
+  align-items: center;
+
+  .icon {
+    font-size: 1.4rem;
+    margin: 0 4px;
+    color: black;
+  }
+}
