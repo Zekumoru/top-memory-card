@@ -2,12 +2,17 @@ import './styles/App.scss';
 import Cards from './components/Cards';
 import Header from './components/Header';
 import usePokemon from './hooks/usePokemon';
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
+import useArrayShuffler from './hooks/useArrayShuffler';
 
 function App() {
   const [score, setScore] = useState(0);
   const [bestScore, setBestScore] = useState(0);
-  const { pokemons } = usePokemon();
+  const [pokemons, shufflePokemons] = useArrayShuffler(usePokemon().pokemons);
+
+  useEffect(() => {
+    shufflePokemons();
+  }, [shufflePokemons]);
 
   const handleCardClick = (name) => {
     console.log(name);
