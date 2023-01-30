@@ -1,12 +1,15 @@
 import './App.css';
-import Card from './components/Card';
+import Cards from './components/Cards';
 import Header from './components/Header';
+import usePokemon from './hooks/usePokemon';
 
 function App() {
+  const { pokemons } = usePokemon();
+
   return (
     <div className="App">
       <Header />
-      <Card />
+      <Cards items={pokemons} />
     </div>
   );
 }
