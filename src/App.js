@@ -1,4 +1,4 @@
-import './App.css';
+import './styles/App.scss';
 import Cards from './components/Cards';
 import Header from './components/Header';
 import usePokemon from './hooks/usePokemon';
