@@ -9,13 +9,28 @@ function App() {
   const [score, setScore] = useState(0);
   const [bestScore, setBestScore] = useState(0);
   const [pokemons, shufflePokemons] = useArrayShuffler(usePokemon().pokemons);
+  const [picked, setPicked] = useState([]);
 
   useEffect(() => {
     shufflePokemons();
   }, [shufflePokemons]);
 
+  const checkIfPickedTwice = (name) => {
+    return !!picked.find((f) => f === name);
+  };
+
   const handleCardClick = (name) => {
-    console.log(name);
+    if (checkIfPickedTwice(name)) {
+      setScore(0);
+      setBestScore(score);
+      setPicked([]);
+      shufflePokemons();
+      return;
+    }
+
+    setPicked([...picked, name]);
+    setScore((score) => score + 1);
+    shufflePokemons();
   };
 
   return (
