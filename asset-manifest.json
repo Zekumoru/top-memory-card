@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/top-memory-game/static/css/main.695d1c5b.css",
-    "main.js": "/top-memory-game/static/js/main.529615dc.js",
-    "static/media/bulbasaur.png": "/top-memory-game/static/media/bulbasaur.961a737abc93a29558b0.png",
-    "static/media/ekans.png": "/top-memory-game/static/media/ekans.d382fc6b5280ceb680e9.png",
-    "static/media/caterpie.png": "/top-memory-game/static/media/caterpie.dc7c88314d05fc96d217.png",
-    "static/media/sandshrew.png": "/top-memory-game/static/media/sandshrew.91ec03db1698f5d56b85.png",
-    "static/media/vulpix.png": "/top-memory-game/static/media/vulpix.cce8917a69bd389af1d3.png",
-    "static/media/squirtle.png": "/top-memory-game/static/media/squirtle.5406ef593ec743416dcc.png",
-    "static/media/pidgey.png": "/top-memory-game/static/media/pidgey.823c2e42c598aefde44a.png",
-    "static/media/spearow.png": "/top-memory-game/static/media/spearow.4817242236da339cae2d.png",
-    "static/media/charmander.png": "/top-memory-game/static/media/charmander.4fd5701aa09647505bc4.png",
-    "static/media/rattata.png": "/top-memory-game/static/media/rattata.bd5d6ed8ed2196708787.png",
-    "static/media/pikachu.png": "/top-memory-game/static/media/pikachu.d20bdd5d52ce4df7f2b0.png",
-    "static/media/weedle.png": "/top-memory-game/static/media/weedle.c6dfed124380eea460a7.png",
-    "static/media/PokemonHollow.ttf": "/top-memory-game/static/media/PokemonHollow.47f77ce9939c5330492b.ttf",
-    "static/media/PokemonSolid.ttf": "/top-memory-game/static/media/PokemonSolid.5d60be1f7ff5fcc21fc1.ttf",
-    "index.html": "/top-memory-game/index.html",
-    "main.695d1c5b.css.map": "/top-memory-game/static/css/main.695d1c5b.css.map",
-    "main.529615dc.js.map": "/top-memory-game/static/js/main.529615dc.js.map"
+    "main.css": "/top-memory-card/static/css/main.be71f9cd.css",
+    "main.js": "/top-memory-card/static/js/main.052fbb9f.js",
+    "static/media/bulbasaur.png": "/top-memory-card/static/media/bulbasaur.961a737abc93a29558b0.png",
+    "static/media/ekans.png": "/top-memory-card/static/media/ekans.d382fc6b5280ceb680e9.png",
+    "static/media/caterpie.png": "/top-memory-card/static/media/caterpie.dc7c88314d05fc96d217.png",
+    "static/media/sandshrew.png": "/top-memory-card/static/media/sandshrew.91ec03db1698f5d56b85.png",
+    "static/media/vulpix.png": "/top-memory-card/static/media/vulpix.cce8917a69bd389af1d3.png",
+    "static/media/squirtle.png": "/top-memory-card/static/media/squirtle.5406ef593ec743416dcc.png",
+    "static/media/pidgey.png": "/top-memory-card/static/media/pidgey.823c2e42c598aefde44a.png",
+    "static/media/spearow.png": "/top-memory-card/static/media/spearow.4817242236da339cae2d.png",
+    "static/media/charmander.png": "/top-memory-card/static/media/charmander.4fd5701aa09647505bc4.png",
+    "static/media/rattata.png": "/top-memory-card/static/media/rattata.bd5d6ed8ed2196708787.png",
+    "static/media/pikachu.png": "/top-memory-card/static/media/pikachu.d20bdd5d52ce4df7f2b0.png",
+    "static/media/weedle.png": "/top-memory-card/static/media/weedle.c6dfed124380eea460a7.png",
+    "static/media/PokemonHollow.ttf": "/top-memory-card/static/media/PokemonHollow.47f77ce9939c5330492b.ttf",
+    "static/media/PokemonSolid.ttf": "/top-memory-card/static/media/PokemonSolid.5d60be1f7ff5fcc21fc1.ttf",
+    "index.html": "/top-memory-card/index.html",
+    "main.be71f9cd.css.map": "/top-memory-card/static/css/main.be71f9cd.css.map",
+    "main.052fbb9f.js.map": "/top-memory-card/static/js/main.052fbb9f.js.map"
   },
   "entrypoints": [
-    "static/css/main.695d1c5b.css",
-    "static/js/main.529615dc.js"
+    "static/css/main.be71f9cd.css",
+    "static/js/main.052fbb9f.js"
   ]
 }
