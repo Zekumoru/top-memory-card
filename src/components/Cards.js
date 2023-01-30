@@ -5,7 +5,7 @@ function Cards({ items }) {
   return (
     <div className="Cards">
       {items.map((item) => (
-        <Card name={item.name} image={item.image} />
+        <Card key={item.name} name={item.name} image={item.image} />
       ))}
     </div>
   );
