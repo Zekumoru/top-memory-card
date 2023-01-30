@@ -1,9 +1,9 @@
 import React from 'react';
 import '../styles/Card.scss';
 
-function Card({ name, image }) {
+function Card({ name, image, onClick }) {
   return (
-    <div className="Card">
+    <div onClick={onClick} className="Card">
       <img src={image} alt={name} />
       <p>{name}</p>
     </div>

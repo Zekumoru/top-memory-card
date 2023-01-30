@@ -9,6 +9,10 @@ function App() {
   const [bestScore, setBestScore] = useState(0);
   const { pokemons } = usePokemon();
 
+  const handleCardClick = (name) => {
+    console.log(name);
+  };
+
   return (
     <div className="App">
       <Header />
@@ -16,7 +20,7 @@ function App() {
         <h2>Score: {score}</h2>
         <p>Best score: {bestScore}</p>
       </div>
-      <Cards items={pokemons} />
+      <Cards items={pokemons} onClick={handleCardClick} />
     </div>
   );
 }
